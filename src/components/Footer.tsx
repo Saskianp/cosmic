@@ -8,7 +8,7 @@ import { FaInstagram } from 'react-icons/fa';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray text-white py-10 px-6 text-sm">
+    <footer className="bg-gray text-white py-10 px-6 text-sm mt-auto">
       <div className="max-w-6xl mx-auto space-y-6 text-left">
         {/* Kontak */}
         <div className="space-y-3">

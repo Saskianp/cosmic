@@ -10,10 +10,10 @@ import LogoCGU from '../assets/Logo 1 CGU Refine OL-02.png';
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About Us', href: '/about' },
-  { name: 'Our Work', href: '/work' },
-  { name: 'Director Partners', href: '/dir-partners' },
+  { name: 'Our Work', href: '/our-work' },
+  { name: 'Director Partners', href: '/director-partners' },
   { name: 'Services', href: '/services' },
-  { name: 'Our Client', href: '/client' },
+  { name: 'Our Client', href: '/our-client' },
   { name: 'Contact Us', href: '/contact' },
 ];
 
@@ -103,12 +103,12 @@ const Navbar: React.FC = () => {
             </div>
 
             {/* Mobile Menu */}
-            <DisclosurePanel className="md:hidden bg-gray-800/90 px-4 pb-4 pt-2">
+            <DisclosurePanel className="md:hidden bg-gray-800 px-4 pb-4 pt-2">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
                   to={item.href}
-                  className="block rounded-md px-3 py-2 text-base font-medium text-white hover:bg-gray-700"
+                  className="block rounded-md px-3 py-4 text-base font-medium text-white hover:bg-gray-700"
                 >
                   {item.name}
                 </Link>
@@ -122,11 +122,11 @@ const Navbar: React.FC = () => {
       {sidebarOpen && (
         <>
           <div
-            className="fixed inset-0 z-40 bg-black bg-opacity-50"
+            className="fixed inset-0 z-40 bg-opacity-50"
             onClick={() => setSidebarOpen(false)}
           />
 
-          <div className="fixed top-0 right-0 z-50 h-full w-64 bg-gray-900 text-white shadow-lg p-6">
+          <div className="fixed top-0 right-0 z-50 h-full w-75 bg-gray-800 text-white shadow-lg p-6">
             <button
               onClick={() => setSidebarOpen(false)}
               className="absolute top-5 right-8 mb-6 p-2 bg-transparent focus:outline-none"
