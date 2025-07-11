@@ -10,10 +10,10 @@ import LogoCGU from '../assets/Logo 1 CGU Refine OL-02.png';
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About Us', href: '/about' },
-  { name: 'Our Work', href: '/our-work' },
+  { name: 'Our Works', href: '/our-work' },
   { name: 'Director Partners', href: '/director-partners' },
   { name: 'Services', href: '/services' },
-  { name: 'Our Client', href: '/our-client' },
+  { name: 'Our Clients', href: '/our-client' },
   { name: 'Contact Us', href: '/contact' },
 ];
 
@@ -113,6 +113,10 @@ const Navbar: React.FC = () => {
                   {item.name}
                 </Link>
               ))}
+              {/* Copyright */}
+              <div className="pt-6 border-t border-gray-700 text-xs text-gray-400 mt-10">
+                © 2025 Cosmic Grounds. All rights reserved.
+              </div>
             </DisclosurePanel>
           </>
         )}
@@ -157,6 +161,10 @@ const Navbar: React.FC = () => {
                   {item.name}
                 </Link>
               ))}
+              {/* Copyright */}
+              <div className="pt-6 border-t border-gray-700 text-xs text-gray-400 mt-14">
+                © 2025 Cosmic Grounds. All rights reserved.
+              </div>
             </nav>
           </div>
         </>

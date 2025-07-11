@@ -67,14 +67,14 @@ const AboutPage: React.FC = () => {
           }}  
         >
           <div className="absolute inset-0 bg-black/50" />
-          <div className="relative z-10 text-white w-full max-w-3xl space-y-6">
-            <p className="text-md md:text-lg text-white/90 drop-shadow-md leading-relaxed">
+          <div className="relative z-10 text-white w-full max-w-3xl mx-auto px-4 sm:px-6 md:px-10 space-y-6">
+            <p className="text-sm sm:text-base md:text-lg text-white/90 drop-shadow-md leading-relaxed">
               <b>Cosmic Grounds</b> is a generational platform rooted in <b>creativity, collaboration, 
               and long-term vision</b> — a place where ideas take root and grow into impactful ventures. 
               In its first phase, Cosmic Grounds will focus on operating as a <b>Creative Production House</b>, delivering high-quality content and storytelling across disciplines. The name itself blends the imaginative scale of the cosmos with the fertile foundation of “grounds,” symbolizing both ambition and support. 
             </p>
 
-            <p className="text-md md:text-lg text-white/90 drop-shadow-md leading-relaxed">
+            <p className="text-sm sm:text-base md:text-lg text-white/90 drop-shadow-md leading-relaxed">
               It <b>stands as a launchpad for creators and a home for innovation</b> — modular, future-ready, and emotionally resonant for partners, talent, and audiences alike.
             </p>
           </div>
@@ -161,7 +161,7 @@ const AboutPage: React.FC = () => {
 
         <section className="py-16 px-6 bg-gray text-white">
           <h2 className="text-3xl font-bold text-center mb-5">The Team</h2>
-          <p className="text-xs font-normal text-center mb-10">
+          <p className="text-sm font-normal text-center mb-10">
             We are a team of innovative people who love creating stellar ideas and visuals
           </p>
 
